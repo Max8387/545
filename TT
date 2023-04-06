@@ -1,0 +1,437 @@
+--TT
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local activate = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.Position = UDim2.new(0.0280777551, 0, 0.453086436, 0)
+Frame.Size = UDim2.new(0, 270, 0, 229)
+activate.Name = "activate"
+activate.Parent = Frame
+activate.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+activate.BorderColor3 = Color3.fromRGB(0, 0, 0)
+activate.Position = UDim2.new(0.129629627, 0, 0.414847165, 0)
+activate.Size = UDim2.new(0, 200, 0, 112)
+activate.Font = Enum.Font.Unknown
+activate.Text = "activate"
+activate.TextColor3 = Color3.fromRGB(148, 148, 148)
+activate.TextSize = 25.000
+TextLabel.Parent = activate
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(48, 48, 48)
+TextLabel.Position = UDim2.new(0, 0, -0.848214269, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "TT"
+TextLabel.TextColor3 = Color3.fromRGB(148, 148, 148)
+TextLabel.TextSize = 12.000
+activate.MouseButton1Down:connect(function()
+activate.Text = "loading"
+local s = Instance.new("Sound")
+s.Name = "Sound"
+s.SoundId = "http://www.roblox.com/asset/?id=5000442343"
+s.Volume = 3
+s.Looped = false
+s.archivable = false
+s.Parent = game.Workspace
+s:play()
+wait(0.6)
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
+wait(4)
+activate.Text = "done"
+local s = Instance.new("Sound")
+s.Name = "Sound"
+s.SoundId = "http://www.roblox.com/asset/?id=5153734608"
+s.Volume = 1
+s.Looped = false
+s.archivable = false
+s.Parent = game.Workspace
+s:play()
+wait(0.8)
+TextLabel.Visible = false
+TextLabel.Active = false
+activate.Visible = false
+activate.Active = false
+Frame.Visible = false
+Frame.Active = false
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local drag = Instance.new("TextLabel")
+local X = Instance.new("TextButton")
+local Frame2 = Instance.new("Frame")
+local speed100 = Instance.new("TextButton")
+local speed200 = Instance.new("TextButton")
+local JumpPower100 = Instance.new("TextButton")
+local JumpPower200 = Instance.new("TextButton")
+local btools = Instance.new("TextButton")
+local re = Instance.new("TextButton")
+local tptool = Instance.new("TextButton")
+local InfiniteJump = Instance.new("TextButton")
+local ESP = Instance.new("TextButton")
+local ambot = Instance.new("TextButton")
+local brightongame = Instance.new("TextButton")
+local OpenTT = Instance.new("TextButton")
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(4, 4, 4)
+Frame.BorderColor3 = Color3.fromRGB(6, 10, 12)
+Frame.Position = UDim2.new(0.0367170647, 0, 0.233333334, 0)
+Frame.Size = UDim2.new(0, 478, 0, 397)
+Frame.Active = true
+Frame.Draggable = true
+drag.Name = "drag"
+drag.Parent = Frame
+drag.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+drag.Size = UDim2.new(0, 478, 0, 50)
+drag.Font = Enum.Font.SourceSans
+drag.Text = "////////////////////////////////////////////////////////////////////////////////////////////////////////"
+drag.TextColor3 = Color3.fromRGB(0, 0, 0)
+drag.TextSize = 14.00
+X.Name = "X"
+X.Parent = Frame
+X.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+X.Size = UDim2.new(0, 20, 0, 23)
+X.Font = Enum.Font.Unknown
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(0, 0, 0)
+X.TextSize = 14.000
+Frame2.Name = "Frame 2"
+Frame2.Parent = Frame
+Frame2.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+Frame2.Position = UDim2.new(0, 0, 0.178841308, 0)
+Frame2.Size = UDim2.new(0, 150, 0, 303)
+speed100.Name = "speed 100"
+speed100.Parent = Frame
+speed100.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+speed100.BorderColor3 = Color3.fromRGB(138, 138, 138)
+speed100.Position = UDim2.new(0.0188284516, 0, 0.277078092, 0)
+speed100.Size = UDim2.new(0, 131, 0, 30)
+speed100.Font = Enum.Font.Unknown
+speed100.Text = "speed 100"
+speed100.TextColor3 = Color3.fromRGB(0, 0, 0)
+speed100.TextSize = 14.000
+speed200.Name = "speed 200"
+speed200.Parent = Frame
+speed200.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+speed200.BorderColor3 = Color3.fromRGB(138, 138, 138)
+speed200.Position = UDim2.new(0.0188284516, 0, 0.425692707, 0)
+speed200.Size = UDim2.new(0, 131, 0, 30)
+speed200.Font = Enum.Font.Unknown
+speed200.Text = "speed 200"
+speed200.TextColor3 = Color3.fromRGB(0, 0, 0)
+speed200.TextSize = 14.000
+JumpPower100.Name = "JumpPower 100"
+JumpPower100.Parent = Frame
+JumpPower100.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+JumpPower100.BorderColor3 = Color3.fromRGB(138, 138, 138)
+JumpPower100.Position = UDim2.new(0.0188284516, 0, 0.57178843, 0)
+JumpPower100.Size = UDim2.new(0, 131, 0, 30)
+JumpPower100.Font = Enum.Font.Unknown
+JumpPower100.Text = "JumpPower 100"
+JumpPower100.TextColor3 = Color3.fromRGB(0, 0, 0)
+JumpPower100.TextSize = 14.000
+JumpPower200.Name = "JumpPower 200"
+JumpPower200.Parent = Frame
+JumpPower200.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+JumpPower200.BorderColor3 = Color3.fromRGB(138, 138, 138)
+JumpPower200.Position = UDim2.new(0.0188284516, 0, 0.732997477, 0)
+JumpPower200.Size = UDim2.new(0, 131, 0, 30)
+JumpPower200.Font = Enum.Font.Unknown
+JumpPower200.Text = "JumpPower 200"
+JumpPower200.TextColor3 = Color3.fromRGB(0, 0, 0)
+JumpPower200.TextSize = 14.000
+btools.Name = "btools"
+btools.Parent = Frame
+btools.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+btools.BorderColor3 = Color3.fromRGB(138, 138, 138)
+btools.Position = UDim2.new(0.361924678, 0, 0.201511353, 0)
+btools.Size = UDim2.new(0, 131, 0, 30)
+btools.Font = Enum.Font.Unknown
+btools.Text = "btools"
+btools.TextColor3 = Color3.fromRGB(0, 0, 0)
+btools.TextSize = 14.000
+re.Name = "re"
+re.Parent = Frame
+re.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+re.BorderColor3 = Color3.fromRGB(138, 138, 138)
+re.Position = UDim2.new(0.361924678, 0, 0.372795999, 0)
+re.Size = UDim2.new(0, 131, 0, 30)
+re.Font = Enum.Font.Unknown
+re.Text = "re"
+re.TextColor3 = Color3.fromRGB(0, 0, 0)
+re.TextSize = 14.000
+tptool.Name = "tp tool"
+tptool.Parent = Frame
+tptool.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+tptool.BorderColor3 = Color3.fromRGB(138, 138, 138)
+tptool.Position = UDim2.new(0.361924678, 0, 0.551637292, 0)
+tptool.Size = UDim2.new(0, 131, 0, 30)
+tptool.Font = Enum.Font.Unknown
+tptool.Text = "tp tool"
+tptool.TextColor3 = Color3.fromRGB(0, 0, 0)
+tptool.TextSize = 14.000
+InfiniteJump.Name = "Infinite Jump"
+InfiniteJump.Parent = Frame
+InfiniteJump.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+InfiniteJump.BorderColor3 = Color3.fromRGB(138, 138, 138)
+InfiniteJump.Position = UDim2.new(0.361924678, 0, 0.712846339, 0)
+InfiniteJump.Size = UDim2.new(0, 131, 0, 30)
+InfiniteJump.Font = Enum.Font.Unknown
+InfiniteJump.Text = "Infinite Jump"
+InfiniteJump.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteJump.TextSize = 14.000
+ESP.Name = "ESP"
+ESP.Parent = Frame
+ESP.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+ESP.BorderColor3 = Color3.fromRGB(138, 138, 138)
+ESP.Position = UDim2.new(0.361924678, 0, 0.866498709, 0)
+ESP.Size = UDim2.new(0, 131, 0, 30)
+ESP.Font = Enum.Font.Unknown
+ESP.Text = "ESP"
+ESP.TextColor3 = Color3.fromRGB(0, 0, 0)
+ESP.TextSize = 14.000
+ambot.Name = "ambot"
+ambot.Parent = Frame
+ambot.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+ambot.BorderColor3 = Color3.fromRGB(138, 138, 138)
+ambot.Position = UDim2.new(0.698744774, 0, 0.201511323, 0)
+ambot.Size = UDim2.new(0, 131, 0, 30)
+ambot.Font = Enum.Font.Unknown
+ambot.Text = "ambot"
+ambot.TextColor3 = Color3.fromRGB(0, 0, 0)
+ambot.TextSize = 14.000
+brightongame.Name = "brighton game"
+brightongame.Parent = Frame
+brightongame.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+brightongame.BorderColor3 = Color3.fromRGB(138, 138, 138)
+brightongame.Position = UDim2.new(0.698744774, 0, 0.319899231, 0)
+brightongame.Size = UDim2.new(0, 131, 0, 247)
+brightongame.Font = Enum.Font.Unknown
+brightongame.Text = "brighton game"
+brightongame.TextColor3 = Color3.fromRGB(0, 0, 0)
+brightongame.TextSize = 21.000
+brightongame.MouseButton1Down:connect(function()
+	local Light = game:GetService("Lighting")
+
+	function dofullbright()
+		Light.Ambient = Color3.new(1, 1, 1)
+		Light.ColorShift_Bottom = Color3.new(1, 1, 1)
+		Light.ColorShift_Top = Color3.new(1, 1, 1)
+	end
+
+	dofullbright()
+
+	Light.LightingChanged:Connect(dofullbright)
+	local s = Instance.new("Sound")
+	s.Name = "Sound"
+	s.SoundId = "http://www.roblox.com/asset/?id=5000442343"
+	s.Volume = 3
+	s.Looped = false
+	s.archivable = false
+	s.Parent = game.Workspace
+	s:play()
+end)
+
+ambot.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/WRD%20Aimbot.txt"))()
+	local s = Instance.new("Sound")
+	s.Name = "Sound"
+	s.SoundId = "http://www.roblox.com/asset/?id=5000442343"
+	s.Volume = 3
+	s.Looped = false
+	s.archivable = false
+	s.Parent = game.Workspace
+	s:play()
+end)
+ESP.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/WRD%20ESP.txt"))()
+	local s = Instance.new("Sound")
+	s.Name = "Sound"
+	s.SoundId = "http://www.roblox.com/asset/?id=5000442343"
+	s.Volume = 3
+	s.Looped = false
+	s.archivable = false
+	s.Parent = game.Workspace
+	s:play()
+end)
+InfiniteJump.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Jump.txt"))()
+	local s = Instance.new("Sound")
+	s.Name = "Sound"
+	s.SoundId = "http://www.roblox.com/asset/?id=5000442343"
+	s.Volume = 3
+	s.Looped = false
+	s.archivable = false
+	s.Parent = game.Workspace
+	s:play()
+end)
+tptool.MouseButton1Down:connect(function()
+	local s = Instance.new("Sound")
+	s.Name = "Sound"
+	s.SoundId = "http://www.roblox.com/asset/?id=5000442343"
+	s.Volume = 3
+	s.Looped = false
+	s.archivable = false
+	s.Parent = game.Workspace
+	s:play()
+	bin=Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+	bin.Name = "Teleport"
+
+	function teleportPlayer(pos)
+
+		local player = game.Players.LocalPlayer
+		if player == nil or player.Character == nil then return end
+
+		local char = player.Character
+
+		char:MoveTo(pos)
+
+	end
+
+
+	enabled = true
+	function onButton1Down(mouse)
+		if not enabled then
+			return
+		end
+
+		local player = game.Players.LocalPlayer
+		if player == nil then return end
+		local cf = mouse.Hit
+		teleportPlayer(cf.p)
+
+	end
+
+	function onSelected(mouse)
+		mouse.Icon = "rbxassetUndecided/textures\\ArrowCursor.png"
+		mouse.Button1Down:connect(function() onButton1Down(mouse) end)
+	end
+
+	bin.Selected:connect(onSelected)
+end)
+re.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.Health = 0
+	local s = Instance.new("Sound")
+	s.Name = "Sound"
+	s.SoundId = "http://www.roblox.com/asset/?id=5000442343"
+	s.Volume = 3
+	s.Looped = false
+	s.archivable = false
+	s.Parent = game.Workspace
+	s:play()
+end)
+
+btools.MouseButton1Down:connect(function()
+	backpack = game:GetService("Players").LocalPlayer.Backpack
+	hammer = Instance.new("HopperBin")
+	hammer.Name = "Hammer"
+	hammer.BinType = 4
+	hammer.Parent = backpack
+	cloneTool = Instance.new("HopperBin")
+	cloneTool.Name = "Clone"
+	cloneTool.BinType = 3
+	cloneTool.Parent = backpack
+	grabTool = Instance.new("HopperBin")
+	grabTool.Name = "Grab"
+	grabTool.BinType = 2
+	grabTool.Parent = backpack
+	local s = Instance.new("Sound")
+	s.Name = "Sound"
+	s.SoundId = "http://www.roblox.com/asset/?id=5000442343"
+	s.Volume = 3
+	s.Looped = false
+	s.archivable = false
+	s.Parent = game.Workspace
+	s:play()
+end)
+JumpPower200.MouseButton1Down:connect(function()
+	game.Workspace.LocalPlayer.Humanoid.JumpPower = 200
+	local s = Instance.new("Sound")
+	s.Name = "Sound"
+	s.SoundId = "http://www.roblox.com/asset/?id=5000442343"
+	s.Volume = 3
+	s.Looped = false
+	s.archivable = false
+	s.Parent = game.Workspace
+	s:play()
+end)
+JumpPower100.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Humanoid.JumpPower = 100
+	local s = Instance.new("Sound")
+	s.Name = "Sound"
+	s.SoundId = "http://www.roblox.com/asset/?id=5000442343"
+	s.Volume = 3
+	s.Looped = false
+	s.archivable = false
+	s.Parent = game.Workspace
+	s:play()
+end)
+speed200.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 200
+	local s = Instance.new("Sound")
+	s.Name = "Sound"
+	s.SoundId = "http://www.roblox.com/asset/?id=5000442343"
+	s.Volume = 3
+	s.Looped = false
+	s.archivable = false
+	s.Parent = game.Workspace
+	s:play()
+end)
+speed100.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+	local s = Instance.new("Sound")
+	s.Name = "Sound"
+	s.SoundId = "http://www.roblox.com/asset/?id=5000442343"
+	s.Volume = 3
+	s.Looped = false
+	s.archivable = false
+	s.Parent = game.Workspace
+	s:play()
+end)
+X.MouseButton1Down:connect(function()
+	Frame.Visible = false
+	Frame.Active = false
+	OpenTT.Name = "Open TT"
+	OpenTT.Parent = ScreenGui
+	OpenTT.BackgroundColor3 = Color3.fromRGB(138, 138, 138)
+	OpenTT.BorderColor3 = Color3.fromRGB(138, 138, 138)
+	OpenTT.Position = UDim2.new(0, 0, 0.813580215, 0)
+	OpenTT.Size = UDim2.new(0, 141, 0, 34)
+	OpenTT.Font = Enum.Font.Unknown
+	OpenTT.Text = "Open TT"
+	OpenTT.TextColor3 = Color3.fromRGB(0, 0, 0)
+	OpenTT.TextSize = 14.000
+	OpenTT.Visible = true
+	local s = Instance.new("Sound")
+	s.Name = "Sound"
+	s.SoundId = "http://www.roblox.com/asset/?id=5000442343"
+	s.Volume = 3
+	s.Looped = false
+	s.archivable = false
+	s.Parent = game.Workspace
+	s:play()
+end)
+OpenTT.MouseButton1Down:connect(function()
+	Frame.Visible = true
+	Frame.Active = true
+	local s = Instance.new("Sound")
+	s.Name = "Sound"
+	s.SoundId = "http://www.roblox.com/asset/?id=5000442343"
+	s.Volume = 3
+	s.Looped = false
+	s.archivable = false
+	s.Parent = game.Workspace
+	s:play()
+	OpenTT.Visible = false
+	OpenTT.Active = false
+end)
+    end)
+--:":"":":
+--2008 - 2012
