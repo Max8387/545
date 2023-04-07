@@ -240,7 +240,6 @@ brightongame.MouseButton1Down:connect(function()
 end)
 
 ambot.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/WRD%20Aimbot.txt"))()
 	local s = Instance.new("Sound")
 	s.Name = "Sound"
 	s.SoundId = "http://www.roblox.com/asset/?id=5000442343"
@@ -249,9 +248,10 @@ ambot.MouseButton1Down:connect(function()
 	s.archivable = false
 	s.Parent = game.Workspace
 	s:play()
+	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/WRD%20Aimbot.txt"))()
+	
 end)
 ESP.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/WRD%20ESP.txt"))()
 	local s = Instance.new("Sound")
 	s.Name = "Sound"
 	s.SoundId = "http://www.roblox.com/asset/?id=5000442343"
@@ -260,9 +260,10 @@ ESP.MouseButton1Down:connect(function()
 	s.archivable = false
 	s.Parent = game.Workspace
 	s:play()
+	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/WRD%20ESP.txt"))()
+	
 end)
 InfiniteJump.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Jump.txt"))()
 	local s = Instance.new("Sound")
 	s.Name = "Sound"
 	s.SoundId = "http://www.roblox.com/asset/?id=5000442343"
@@ -271,6 +272,8 @@ InfiniteJump.MouseButton1Down:connect(function()
 	s.archivable = false
 	s.Parent = game.Workspace
 	s:play()
+	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Jump.txt"))()
+	
 end)
 tptool.MouseButton1Down:connect(function()
 	local s = Instance.new("Sound")
