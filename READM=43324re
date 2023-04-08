@@ -199,3 +199,4 @@ Tab:AddLabel("and clear out whatever is in the text box")
 Tab:AddLabel("and then hit control v on your keybored ")
 -- when that is in the text box hit inter on your keybored 
 Tab:AddLabel("when that is in the text box hit inter on your keybored ")
+Tab:AddLabel("then scroll off of the script")
