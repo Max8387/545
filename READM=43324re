@@ -1,0 +1,201 @@
+--by Zendz 
+--For Zendz X 
+--lol i spend 4 hour's on this 
+
+
+
+
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Player = game.Players.LocalPlayer
+local Window = OrionLib:MakeWindow({Name = "Zendz X", HidePremium = false, SaveConfig = true, IntroEnabled = false})
+local Tab = Window:MakeTab({
+	Name = "Working mouse id's",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "back",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddLabel("")
+Tab:AddLabel("")
+Tab:AddButton({
+	Name = "cursor game",
+	Callback = function()
+      		setclipboard("9826609769")
+		OrionLib:MakeNotification({
+	Name = "copied",
+	Content = "9826609769",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+  	end    
+})
+Tab:AddButton({
+	Name = "Steak Out Of Context Mouse Cursor",
+	Callback = function()
+      		setclipboard("12172655081")
+		OrionLib:MakeNotification({
+	Name = "copied",
+	Content = "12172655081",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+  	end    
+})
+Tab:AddButton({
+	Name = "Cool Cursor",
+	Callback = function()
+      		setclipboard("7953793840")
+		OrionLib:MakeNotification({
+	Name = "copied",
+	Content = "7953793840",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+  	end    
+})
+Tab:AddButton({
+	Name = "Cool da hood Cursor",
+	Callback = function()
+      		setclipboard("12720403725")
+		OrionLib:MakeNotification({
+	Name = "copied",
+	Content = "12720403725",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+  	end    
+})
+Tab:AddButton({
+	Name = "Cursor 4-6-50pixs",
+	Callback = function()
+      		setclipboard("11514440775")
+		OrionLib:MakeNotification({
+	Name = "copied",
+	Content = "11514440775",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+  	end    
+})
+Tab:AddButton({
+	Name = "Trump Cursor",
+	Callback = function()
+      		setclipboard("5803051879")
+		OrionLib:MakeNotification({
+	Name = "copied",
+	Content = "5803051879",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+  	end    
+})
+Tab:AddButton({
+	Name = "Unavailable Cursor",
+	Callback = function()
+      		setclipboard("1992551286")
+		OrionLib:MakeNotification({
+	Name = "copied",
+	Content = "1992551286",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+  	end    
+})
+Tab:AddButton({
+	Name = "Gun Wait Cursor",
+	Callback = function()
+      		setclipboard("5463262298")
+		OrionLib:MakeNotification({
+	Name = "copied",
+	Content = "5463262298",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+  	end    
+})
+Tab:AddButton({
+	Name = "Frog Cursor for da hood",
+	Callback = function()
+      		setclipboard("11737224187")
+		OrionLib:MakeNotification({
+	Name = "copied",
+	Content = "11737224187",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+  	end    
+})
+Tab:AddButton({
+	Name = "Pop Cat Cursor",
+	Callback = function()
+      		setclipboard("11894005795")
+		OrionLib:MakeNotification({
+	Name = "copied",
+	Content = "11894005795",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+  	end    
+})
+Tab:AddButton({
+	Name = "Cryo Cursor",
+	Callback = function()
+      		setclipboard("11793738396")
+		OrionLib:MakeNotification({
+	Name = "copied",
+	Content = "11793738396",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+  	end    
+})
+Tab:AddButton({
+	Name = "Angels Space Cursor",
+	Callback = function()
+      		setclipboard("6718018773")
+		OrionLib:MakeNotification({
+	Name = "copied",
+	Content = "6718018773",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+  	end    
+})
+Tab:AddButton({
+	Name = "Normal select",
+	Callback = function()
+      		setclipboard("2839556273")
+		OrionLib:MakeNotification({
+	Name = "copied",
+	Content = "2839556273",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Instructions",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddLabel("pick a Cuarsor when you picked a Cursor it will automatically")
+--copy
+Tab:AddLabel("copy")
+--now go to Working mouse id's Tab and click back you will be on Zendz X
+Tab:AddLabel("now go to Working mouse id's Tab and click back ")
+-- you will be on Zendz X
+Tab:AddLabel("you will be on Zendz X")
+Tab:AddLabel("and go to mouse agin and custom mouse id and click the text box right beside it")
+--the text box right beside it
+Tab:AddLabel("the text box right beside it")
+--and clear out whatever is in the text box
+Tab:AddLabel("and clear out whatever is in the text box")
+-- and then hit control v on your keybored 
+Tab:AddLabel("and then hit control v on your keybored ")
+-- when that is in the text box hit inter on your keybored 
+Tab:AddLabel("when that is in the text box hit inter on your keybored ")
