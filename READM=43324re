@@ -190,7 +190,7 @@ Tab:AddLabel("copy")
 Tab:AddLabel("now go to Working mouse id's Tab and click back ")
 -- you will be on Zendz X
 Tab:AddLabel("you will be on Zendz X")
-Tab:AddLabel("and go to mouse agin and custom mouse id and click the text box right beside it")
+Tab:AddLabel("and go to mouse agin and custom mouse id and click")
 --the text box right beside it
 Tab:AddLabel("the text box right beside it")
 --and clear out whatever is in the text box
