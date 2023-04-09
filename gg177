@@ -1,0 +1,105 @@
+--omg free robux
+
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame2 = Instance.new("Frame")
+local getfreerobux = Instance.new("TextButton")
+local X = Instance.new("TextButton")
+local no1 = Instance.new("Frame")
+local in12 = Instance.new("TextLabel")
+local noLabel = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
+Frame.Position = UDim2.new(0.0921526253, 0, 0.154320985, 0)
+Frame.Size = UDim2.new(0, 279, 0, 282)
+
+Frame2.Name = "Frame2"
+Frame2.Parent = Frame
+Frame2.BackgroundColor3 = Color3.fromRGB(7, 7, 7)
+Frame2.BorderColor3 = Color3.fromRGB(7, 7, 7)
+Frame2.Size = UDim2.new(0, 279, 0, 40)
+
+getfreerobux.Name = "get free robux"
+getfreerobux.Parent = Frame
+getfreerobux.BackgroundColor3 = Color3.fromRGB(53, 53, 159)
+getfreerobux.Position = UDim2.new(0.139784947, 0, 0.226950347, 0)
+getfreerobux.Size = UDim2.new(0, 200, 0, 184)
+getfreerobux.Font = Enum.Font.SourceSans
+getfreerobux.Text = "get free robux"
+getfreerobux.TextColor3 = Color3.fromRGB(0, 0, 0)
+getfreerobux.TextSize = 38.000
+
+X.Name = "X"
+X.Parent = Frame
+X.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+X.BorderColor3 = Color3.fromRGB(255, 0, 0)
+X.Size = UDim2.new(0, 24, 0, 20)
+X.Font = Enum.Font.SourceSans
+X.Text = "X"
+X.TextColor3 = Color3.fromRGB(0, 0, 0)
+X.TextSize = 14.000
+
+
+
+getfreerobux.MouseButton1Down:connect(function()
+	ImageLabel.Visible = true
+	ImageLabel.Active = true
+	ImageLabel.Parent = ScreenGui
+	ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ImageLabel.Size = UDim2.new(0, 1381, 0, 810)
+	ImageLabel.Image = "http://www.roblox.com/asset/?id=9180622665"
+	wait(2)
+	ImageLabel.Visible = false
+	ImageLabel.Active = false
+end)
+X.MouseButton1Down:connect(function()
+	noLabel.Name = "noLabel"
+	noLabel.Parent = no1
+	noLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	noLabel.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	noLabel.Position = UDim2.new(0.291618705, 0, 0.382106811, 0)
+	noLabel.Size = UDim2.new(0, 260, 0, 121)
+	noLabel.Font = Enum.Font.SourceSans
+	noLabel.Text = "NO"
+	noLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+	noLabel.TextSize = 100.000
+	no1.Name = "no1"
+	no1.Parent = ScreenGui
+	no1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	no1.Position = UDim2.new(0.253419727, 0, 0.254320979, 0)
+	no1.Size = UDim2.new(0, 685, 0, 383)
+	no1.Visible = true
+	no1.Active = true
+	noLabel.Visible = true
+	noLabel.Active = true
+	
+	in12.Name = "in 12"
+	in12.Parent = no1
+	in12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	in12.Size = UDim2.new(0, 200, 0, 50)
+	in12.Font = Enum.Font.SourceSans
+	in12.Text = "Closing in"
+	in12.TextColor3 = Color3.fromRGB(0, 0, 0)
+	in12.TextSize = 31.000
+	in12.Text = "Closing in 3"
+	wait(1)
+	in12.Text = "Closing in 2"
+	wait(1)
+	in12.Text = "Closing in 1"
+	wait(1)
+	no1.Visible = false
+	no1.Active = false
+	
+
+	
+end)
