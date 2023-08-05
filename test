@@ -1,0 +1,6 @@
+
+local Tab = Window:NewTab("name")
+local Section = Tab:NewSection("Section Name")
+Section:NewButton("ButtonText", "ButtonInfo", function()
+    print("Clicked")
+end)
